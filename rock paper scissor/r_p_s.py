@@ -10,7 +10,7 @@ tie = 0
 
 while True:
 
-	user_selection = input("Choose one among 'rock', 'paper', 'scissors': ").lower()
+	user_selection = input("\nChoose one among 'rock', 'paper', 'scissors': ").lower()
 	computer_selection = get_computer_selection()
 	print("\nThe computer chooses: ",computer_selection)
 
